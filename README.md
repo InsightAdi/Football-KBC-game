@@ -8,7 +8,7 @@ A fully playable **Football Quiz Game** inspired by Kaun Banega Crorepati, built
 
 ## 🌐 Play Online
 
-👉 **[Play the Web Version](https://yourusername.github.io/kbc-game/)**
+👉 **[Play the Web Version]([https://yourusername.github.io/kbc-game/](https://insightadi.github.io/Football-KBC-game/)**
 
 ---
 
