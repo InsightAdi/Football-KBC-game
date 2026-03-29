@@ -1,6 +1,13 @@
 [
     {
         "name": "Aditya",
+        "prize": 10000000,
+        "prize_formatted": "\u20b910,000,000",
+        "date": "29 Mar 2026",
+        "time": "11:36 AM"
+    },
+    {
+        "name": "Aditya",
         "prize": 50000,
         "prize_formatted": "\u20b950,000",
         "date": "28 Mar 2026",
