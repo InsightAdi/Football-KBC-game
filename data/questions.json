@@ -1,197 +1,544 @@
 [
-    {
-        "id": 1,
-        "question": "Which country won the first ever FIFA World Cup in 1930?",
-        "options": {
-            "A": "Brazil",
-            "B": "Argentina",
-            "C": "Uruguay",
-            "D": "Italy"
-        },
-        "answer": "C",
-        "prize": "1000",
-        "difficulty": "easy"
-    },
-    {
-        "id": 2,
-        "question": "Which club does Lionel Messi currently play for?",
-        "options": {
-            "A": "Paris Saint-Germain",
-            "B": "Barcelona",
-            "C": "Inter Miami",
-            "D": "Al Hilal"
-        },
-        "answer": "C",
-        "prize": "2000",
-        "difficulty": "easy"
-    },
-    {
-        "id": 3,
-        "question": "How many players are there in a football team on the field?",
-        "options": {
-            "A": "9",
-            "B": "10",
-            "C": "12",
-            "D": "11"
-        },
-        "answer": "D",
-        "prize": "3000",
-        "difficulty": "easy"
-    },
-    {
-        "id": 4,
-        "question": "Which country has won the most FIFA World Cup titles?",
-        "options": {
-            "A": "Germany",
-            "B": "Brazil",
-            "C": "Argentina",
-            "D": "Italy"
-        },
-        "answer": "B",
-        "prize": "5000",
-        "difficulty": "easy"
-    },
-    {
-        "id": 5,
-        "question": "What is the nickname of the Brazilian national football team?",
-        "options": {
-            "A": "The Lions",
-            "B": "The Eagles",
-            "C": "The Samba Boys",
-            "D": "The Selecao"
-        },
-        "answer": "D",
-        "prize": "10000",
-        "difficulty": "easy"
-    },
-    {
-        "id": 6,
-        "question": "Which stadium is the home ground of FC Barcelona?",
-        "options": {
-            "A": "Santiago Bernabeu",
-            "B": "Nou Camp",
-            "C": "Wanda Metropolitano",
-            "D": "Mestalla"
-        },
-        "answer": "B",
-        "prize": "20000",
-        "difficulty": "medium"
-    },
-    {
-        "id": 7,
-        "question": "Who is the all-time top scorer in FIFA World Cup history?",
-        "options": {
-            "A": "Ronaldo (Brazil)",
-            "B": "Just Fontaine",
-            "C": "Miroslav Klose",
-            "D": "Gerd Muller"
-        },
-        "answer": "C",
-        "prize": "40000",
-        "difficulty": "medium"
-    },
-    {
-        "id": 8,
-        "question": "Which club has won the most UEFA Champions League titles?",
-        "options": {
-            "A": "FC Barcelona",
-            "B": "Bayern Munich",
-            "C": "AC Milan",
-            "D": "Real Madrid"
-        },
-        "answer": "D",
-        "prize": "80000",
-        "difficulty": "medium"
-    },
-    {
-        "id": 9,
-        "question": "In which year was the Premier League founded?",
-        "options": {
-            "A": "1988",
-            "B": "1990",
-            "C": "1992",
-            "D": "1995"
-        },
-        "answer": "C",
-        "prize": "160000",
-        "difficulty": "medium"
-    },
-    {
-        "id": 10,
-        "question": "Which player is known as 'El Fenomeno'?",
-        "options": {
-            "A": "Ronaldinho",
-            "B": "Ronaldo Nazario",
-            "C": "Cristiano Ronaldo",
-            "D": "Roberto Carlos"
-        },
-        "answer": "B",
-        "prize": "320000",
-        "difficulty": "medium"
-    },
-    {
-        "id": 11,
-        "question": "Which country hosted the 2022 FIFA World Cup?",
-        "options": {
-            "A": "UAE",
-            "B": "Saudi Arabia",
-            "C": "Qatar",
-            "D": "Bahrain"
-        },
-        "answer": "C",
-        "prize": "640000",
-        "difficulty": "medium"
-    },
-    {
-        "id": 12,
-        "question": "Who scored the 'Hand of God' goal in the 1986 World Cup?",
-        "options": {
-            "A": "Pele",
-            "B": "Zinedine Zidane",
-            "C": "Diego Maradona",
-            "D": "Michel Platini"
-        },
-        "answer": "C",
-        "prize": "1250000",
-        "difficulty": "hard"
-    },
-    {
-        "id": 13,
-        "question": "Which footballer has won the most Ballon d'Or awards?",
-        "options": {
-            "A": "Cristiano Ronaldo",
-            "B": "Ronaldinho",
-            "C": "Zinedine Zidane",
-            "D": "Lionel Messi"
-        },
-        "answer": "D",
-        "prize": "2500000",
-        "difficulty": "hard"
-    },
-    {
-        "id": 14,
-        "question": "Which club did Cristiano Ronaldo start his professional career at?",
-        "options": {
-            "A": "Manchester United",
-            "B": "Sporting CP",
-            "C": "Real Madrid",
-            "D": "Juventus"
-        },
-        "answer": "B",
-        "prize": "5000000",
-        "difficulty": "hard"
-    },
-    {
-        "id": 15,
-        "question": "Who was the first footballer to win the FIFA World Cup as both a player and a coach?",
-        "options": {
-            "A": "Franz Beckenbauer",
-            "B": "Johan Cruyff",
-            "C": "Didier Deschamps",
-            "D": "Pele"
-        },
-        "answer": "A",
-        "prize": "10000000",
-        "difficulty": "hard"
-    }
+  {
+    "id": 1,
+    "question": "Which country won the first ever FIFA World Cup in 1930?",
+    "options": {"A": "Brazil", "B": "Argentina", "C": "Uruguay", "D": "Italy"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "question": "How many players are there in a football team on the field?",
+    "options": {"A": "9", "B": "10", "C": "11", "D": "12"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "question": "Which country has won the most FIFA World Cup titles?",
+    "options": {"A": "Germany", "B": "Italy", "C": "Argentina", "D": "Brazil"},
+    "answer": "D", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "question": "What is the nickname of the Brazilian national football team?",
+    "options": {"A": "The Lions", "B": "The Eagles", "C": "The Selecao", "D": "The Samba Kings"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "question": "Which club does Lionel Messi currently play for?",
+    "options": {"A": "Barcelona", "B": "PSG", "C": "Inter Miami", "D": "Al Hilal"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "question": "How long is a standard football match?",
+    "options": {"A": "80 minutes", "B": "90 minutes", "C": "100 minutes", "D": "120 minutes"},
+    "answer": "B", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "question": "Which country does Cristiano Ronaldo represent internationally?",
+    "options": {"A": "Spain", "B": "Brazil", "C": "Portugal", "D": "Italy"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "question": "What colour card is shown to send a player off in football?",
+    "options": {"A": "Yellow", "B": "Orange", "C": "Blue", "D": "Red"},
+    "answer": "D", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "question": "Which country hosted the 2022 FIFA World Cup?",
+    "options": {"A": "UAE", "B": "Saudi Arabia", "C": "Qatar", "D": "Bahrain"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "question": "Who won the 2022 FIFA World Cup?",
+    "options": {"A": "France", "B": "Brazil", "C": "Argentina", "D": "Germany"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "question": "Which club is known as 'The Red Devils'?",
+    "options": {"A": "Arsenal", "B": "Manchester United", "C": "Liverpool", "D": "AC Milan"},
+    "answer": "B", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "question": "In which city is FC Barcelona based?",
+    "options": {"A": "Madrid", "B": "Valencia", "C": "Seville", "D": "Barcelona"},
+    "answer": "D", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 13,
+    "question": "What shape is a football goal post?",
+    "options": {"A": "U-shape", "B": "H-shape", "C": "T-shape", "D": "Π-shape"},
+    "answer": "A", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 14,
+    "question": "Which country did Pele represent?",
+    "options": {"A": "Argentina", "B": "Portugal", "C": "Brazil", "D": "Uruguay"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "question": "The FIFA World Cup is held every how many years?",
+    "options": {"A": "2", "B": "3", "C": "4", "D": "5"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 16,
+    "question": "Which team plays their home games at Old Trafford?",
+    "options": {"A": "Manchester City", "B": "Liverpool", "C": "Chelsea", "D": "Manchester United"},
+    "answer": "D", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 17,
+    "question": "What is the maximum number of substitutes allowed in a standard FIFA match?",
+    "options": {"A": "3", "B": "4", "C": "5", "D": "6"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 18,
+    "question": "Which country won the UEFA Euro 2020 tournament?",
+    "options": {"A": "France", "B": "England", "C": "Spain", "D": "Italy"},
+    "answer": "D", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "question": "What is the name of the trophy awarded to the FIFA World Cup winner?",
+    "options": {"A": "Jules Rimet Trophy", "B": "FIFA World Cup Trophy", "C": "Golden Cup", "D": "World Football Trophy"},
+    "answer": "B", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "question": "Which club is known as 'Los Blancos'?",
+    "options": {"A": "Juventus", "B": "Real Madrid", "C": "Bayern Munich", "D": "Inter Milan"},
+    "answer": "B", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "question": "Which nation won the first UEFA European Championship in 1960?",
+    "options": {"A": "France", "B": "West Germany", "C": "Soviet Union", "D": "Yugoslavia"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 22,
+    "question": "Which club did Neymar join after leaving Barcelona in 2017?",
+    "options": {"A": "Real Madrid", "B": "Juventus", "C": "PSG", "D": "Chelsea"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 23,
+    "question": "Which country is Kylian Mbappe from?",
+    "options": {"A": "Belgium", "B": "Senegal", "C": "France", "D": "Ivory Coast"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 24,
+    "question": "What colour are the home shirts of the Brazilian national team?",
+    "options": {"A": "Green", "B": "White", "C": "Blue", "D": "Yellow"},
+    "answer": "D", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "question": "Which club is known as 'The Gunners'?",
+    "options": {"A": "Arsenal", "B": "Tottenham", "C": "West Ham", "D": "Everton"},
+    "answer": "A", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 26,
+    "question": "How many teams compete in a FIFA World Cup final tournament (since 1998)?",
+    "options": {"A": "16", "B": "24", "C": "32", "D": "48"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 27,
+    "question": "Which player is nicknamed 'CR7'?",
+    "options": {"A": "Carlos Ronaldo", "B": "Cristiano Ronaldo", "C": "Cafu Ronaldinho", "D": "Carlos Ramos"},
+    "answer": "B", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 28,
+    "question": "Which country is Erling Haaland from?",
+    "options": {"A": "Sweden", "B": "Denmark", "C": "Norway", "D": "Finland"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 29,
+    "question": "What does VAR stand for in football?",
+    "options": {"A": "Video Assist Referee", "B": "Visual Action Review", "C": "Video Assistant Referee", "D": "Visual Aid Referee"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+  {
+    "id": 30,
+    "question": "Which English club is known as 'The Blues' and plays at Stamford Bridge?",
+    "options": {"A": "Everton", "B": "Manchester City", "C": "Chelsea", "D": "Leicester City"},
+    "answer": "C", "prize": 1000, "difficulty": "easy"
+  },
+
+  {
+    "id": 31,
+    "question": "Which stadium is the home ground of FC Barcelona?",
+    "options": {"A": "Santiago Bernabeu", "B": "Nou Camp", "C": "Wanda Metropolitano", "D": "Mestalla"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 32,
+    "question": "Who is the all-time top scorer in FIFA World Cup history?",
+    "options": {"A": "Ronaldo (Brazil)", "B": "Just Fontaine", "C": "Miroslav Klose", "D": "Gerd Muller"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 33,
+    "question": "Which club has won the most UEFA Champions League titles?",
+    "options": {"A": "FC Barcelona", "B": "Bayern Munich", "C": "AC Milan", "D": "Real Madrid"},
+    "answer": "D", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 34,
+    "question": "In which year was the Premier League founded?",
+    "options": {"A": "1988", "B": "1990", "C": "1992", "D": "1995"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 35,
+    "question": "Which player is known as 'El Fenomeno'?",
+    "options": {"A": "Ronaldinho", "B": "Ronaldo Nazario", "C": "Cristiano Ronaldo", "D": "Roberto Carlos"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 36,
+    "question": "Which club did Zinedine Zidane play for before joining Real Madrid?",
+    "options": {"A": "AC Milan", "B": "Monaco", "C": "Juventus", "D": "Marseille"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 37,
+    "question": "How many times has Brazil won the FIFA World Cup?",
+    "options": {"A": "4", "B": "5", "C": "6", "D": "3"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 38,
+    "question": "Which club won the first UEFA Champions League (then European Cup) in 1956?",
+    "options": {"A": "AC Milan", "B": "Barcelona", "C": "Real Madrid", "D": "Benfica"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 39,
+    "question": "Who won the 2018 FIFA World Cup Golden Boot?",
+    "options": {"A": "Cristiano Ronaldo", "B": "Antoine Griezmann", "C": "Harry Kane", "D": "Kylian Mbappe"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 40,
+    "question": "Which country has won the most UEFA European Championship titles?",
+    "options": {"A": "Germany", "B": "France", "C": "Spain", "D": "Italy"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 41,
+    "question": "Which club is known as 'The Old Lady' (La Vecchia Signora)?",
+    "options": {"A": "Inter Milan", "B": "AC Milan", "C": "Roma", "D": "Juventus"},
+    "answer": "D", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 42,
+    "question": "What is the name of Liverpool's home ground?",
+    "options": {"A": "Goodison Park", "B": "Anfield", "C": "Elland Road", "D": "St James' Park"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 43,
+    "question": "Which player won the Golden Ball at the 2014 World Cup?",
+    "options": {"A": "Thomas Muller", "B": "James Rodriguez", "C": "Lionel Messi", "D": "Bastian Schweinsteiger"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 44,
+    "question": "Which country beat Germany 7-1 in the 2014 World Cup semi-final?",
+    "options": {"A": "Argentina", "B": "Brazil", "C": "France", "D": "Netherlands"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 45,
+    "question": "Who is the all-time top scorer for the English Premier League?",
+    "options": {"A": "Frank Lampard", "B": "Thierry Henry", "C": "Wayne Rooney", "D": "Andrew Cole"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 46,
+    "question": "Which club did Robert Lewandowski leave Bayern Munich to join in 2022?",
+    "options": {"A": "PSG", "B": "Barcelona", "C": "Chelsea", "D": "Juventus"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 47,
+    "question": "Which country won the first Africa Cup of Nations in 1957?",
+    "options": {"A": "Nigeria", "B": "Egypt", "C": "Ghana", "D": "Sudan"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 48,
+    "question": "Which Spanish club is nicknamed 'Los Colchoneros' (The Mattress Makers)?",
+    "options": {"A": "Sevilla", "B": "Valencia", "C": "Atletico Madrid", "D": "Real Betis"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 49,
+    "question": "How many goals did Miroslav Klose score in total World Cup appearances?",
+    "options": {"A": "14", "B": "15", "C": "16", "D": "17"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 50,
+    "question": "Which club knocked Barcelona out of the 2021-22 Champions League group stage?",
+    "options": {"A": "Bayern Munich", "B": "Benfica", "C": "Dynamo Kyiv", "D": "Juventus"},
+    "answer": "A", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 51,
+    "question": "Which player scored the winning penalty for Chelsea in the 2012 Champions League final?",
+    "options": {"A": "Frank Lampard", "B": "Didier Drogba", "C": "Ashley Cole", "D": "Juan Mata"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 52,
+    "question": "Which country did Thierry Henry play for internationally?",
+    "options": {"A": "Ivory Coast", "B": "Senegal", "C": "Belgium", "D": "France"},
+    "answer": "D", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 53,
+    "question": "Which club has won the most English First Division and Premier League titles combined?",
+    "options": {"A": "Arsenal", "B": "Liverpool", "C": "Manchester United", "D": "Chelsea"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 54,
+    "question": "Who scored the fastest hat-trick in Premier League history (2 min 56 sec)?",
+    "options": {"A": "Robbie Fowler", "B": "Michael Owen", "C": "Sadio Mane", "D": "Alan Shearer"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 55,
+    "question": "Which city hosts the El Clasico derby?",
+    "options": {"A": "Madrid only", "B": "Barcelona only", "C": "Both Madrid and Barcelona", "D": "Neither — it's a neutral venue"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 56,
+    "question": "Which nation did Ronaldinho play for?",
+    "options": {"A": "Portugal", "B": "Argentina", "C": "Brazil", "D": "Spain"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 57,
+    "question": "In what year did the Champions League rebrand from the European Cup?",
+    "options": {"A": "1990", "B": "1991", "C": "1992", "D": "1993"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 58,
+    "question": "Which German club is nicknamed 'Die Bayern'?",
+    "options": {"A": "Borussia Dortmund", "B": "Bayer Leverkusen", "C": "Schalke 04", "D": "Bayern Munich"},
+    "answer": "D", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 59,
+    "question": "Who won the UEFA Champions League in 2019?",
+    "options": {"A": "Manchester City", "B": "Ajax", "C": "Liverpool", "D": "Barcelona"},
+    "answer": "C", "prize": 20000, "difficulty": "medium"
+  },
+  {
+    "id": 60,
+    "question": "Which player holds the record for most appearances in the FIFA World Cup?",
+    "options": {"A": "Pele", "B": "Lothar Matthaus", "C": "Diego Maradona", "D": "Cafu"},
+    "answer": "B", "prize": 20000, "difficulty": "medium"
+  },
+
+  {
+    "id": 61,
+    "question": "Who scored the 'Hand of God' goal in the 1986 World Cup?",
+    "options": {"A": "Pele", "B": "Zinedine Zidane", "C": "Diego Maradona", "D": "Michel Platini"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 62,
+    "question": "Which footballer has won the most Ballon d'Or awards?",
+    "options": {"A": "Cristiano Ronaldo", "B": "Ronaldinho", "C": "Zinedine Zidane", "D": "Lionel Messi"},
+    "answer": "D", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 63,
+    "question": "Which club did Cristiano Ronaldo start his professional career at?",
+    "options": {"A": "Manchester United", "B": "Sporting CP", "C": "Real Madrid", "D": "Juventus"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 64,
+    "question": "Who was the first footballer to win the FIFA World Cup as both a player and a coach?",
+    "options": {"A": "Johan Cruyff", "B": "Didier Deschamps", "C": "Franz Beckenbauer", "D": "Pele"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 65,
+    "question": "Who holds the record for scoring in the most consecutive Premier League seasons?",
+    "options": {"A": "Ryan Giggs", "B": "Frank Lampard", "C": "Wayne Rooney", "D": "Andrew Cole"},
+    "answer": "A", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 66,
+    "question": "Which player scored the most goals in a single Champions League season (17 goals in 2013-14)?",
+    "options": {"A": "Lionel Messi", "B": "Karim Benzema", "C": "Cristiano Ronaldo", "D": "Luis Suarez"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 67,
+    "question": "Who scored the winning goal in the 1999 Champions League final for Manchester United in injury time?",
+    "options": {"A": "Teddy Sheringham", "B": "Ole Gunnar Solskjaer", "C": "Peter Schmeichel", "D": "Andy Cole"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 68,
+    "question": "Which player holds the record for the most international goals in men's football?",
+    "options": {"A": "Pele", "B": "Ronaldo", "C": "Cristiano Ronaldo", "D": "Messi"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 69,
+    "question": "Just Fontaine holds the record for most goals in a single World Cup. How many did he score in 1958?",
+    "options": {"A": "11", "B": "12", "C": "13", "D": "14"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 70,
+    "question": "Which club won the treble (league, FA Cup, Champions League) in 1998-99?",
+    "options": {"A": "Barcelona", "B": "Arsenal", "C": "Manchester United", "D": "Chelsea"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 71,
+    "question": "Who was the first player to score 100 Champions League goals?",
+    "options": {"A": "Lionel Messi", "B": "Raul", "C": "Cristiano Ronaldo", "D": "Karim Benzema"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 72,
+    "question": "Which African nation became the first to reach a World Cup semi-final in 1990?",
+    "options": {"A": "Nigeria", "B": "Senegal", "C": "Ghana", "D": "Cameroon"},
+    "answer": "D", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 73,
+    "question": "Who scored the first ever Premier League hat-trick?",
+    "options": {"A": "Alan Shearer", "B": "Eric Cantona", "C": "Mick Quinn", "D": "Les Ferdinand"},
+    "answer": "A", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 74,
+    "question": "In what year did FIFA introduce the offside rule change that created the 'W-M' formation revolution?",
+    "options": {"A": "1920", "B": "1925", "C": "1930", "D": "1935"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 75,
+    "question": "Which player was nicknamed 'The Divine Ponytail' (Il Divin Codino)?",
+    "options": {"A": "Francesco Totti", "B": "Roberto Baggio", "C": "Alessandro Del Piero", "D": "Gianfranco Zola"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 76,
+    "question": "Who scored the famous 'Scorpion Kick' goal for Colombia against England in 1995?",
+    "options": {"A": "Carlos Valderrama", "B": "Faustino Asprilla", "C": "Rene Higuita", "D": "Freddy Rincon"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 77,
+    "question": "Which player has won the most FA Cup winner's medals (7)?",
+    "options": {"A": "Frank Lampard", "B": "Ryan Giggs", "C": "Ashley Cole", "D": "John Terry"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 78,
+    "question": "Who holds the record for the most goals scored in a single La Liga season (50 goals in 2011-12)?",
+    "options": {"A": "Cristiano Ronaldo", "B": "Lionel Messi", "C": "Luis Suarez", "D": "Karim Benzema"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 79,
+    "question": "Which club did Johan Cruyff NOT play for during his career?",
+    "options": {"A": "Ajax", "B": "Barcelona", "C": "Real Madrid", "D": "Los Angeles Aztecs"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 80,
+    "question": "Who scored the fastest goal in World Cup history (10.8 seconds) in 2002?",
+    "options": {"A": "Ronaldo", "B": "Rivaldo", "C": "Hakan Sukur", "D": "Emile Heskey"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 81,
+    "question": "Which country won the very first Olympic football gold medal in 1900?",
+    "options": {"A": "England", "B": "France", "C": "Germany", "D": "Belgium"},
+    "answer": "A", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 82,
+    "question": "Who was the first player to win the Champions League with three different clubs?",
+    "options": {"A": "Clarence Seedorf", "B": "Roberto Carlos", "C": "Claude Makelele", "D": "Didier Deschamps"},
+    "answer": "A", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 83,
+    "question": "Which goalkeeper holds the record for most clean sheets in Premier League history?",
+    "options": {"A": "Peter Schmeichel", "B": "Petr Cech", "C": "David James", "D": "Edwin van der Sar"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 84,
+    "question": "In 1970, which Brazilian player was given the Jules Rimet Trophy permanently after Brazil's third World Cup win?",
+    "options": {"A": "Garrincha", "B": "Pele", "C": "Rivelino", "D": "Tostao"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 85,
+    "question": "Which player scored a hat-trick in the 2018 World Cup group stage against Portugal?",
+    "options": {"A": "Antoine Griezmann", "B": "Harry Kane", "C": "Cristiano Ronaldo", "D": "Romelu Lukaku"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 86,
+    "question": "Which Dutch player famously turned down Real Madrid to stay at Ajax on principle?",
+    "options": {"A": "Dennis Bergkamp", "B": "Johan Cruyff", "C": "Marco van Basten", "D": "Ruud Gullit"},
+    "answer": "B", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 87,
+    "question": "Who is the only player to have won the FIFA World Cup, UEFA Champions League, and Olympic gold medal?",
+    "options": {"A": "Ronaldo (Brazil)", "B": "Pele", "C": "Cafu", "D": "Roberto Carlos"},
+    "answer": "A", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 88,
+    "question": "Which club was Lev Yashin, arguably the greatest goalkeeper of all time, associated with?",
+    "options": {"A": "Spartak Moscow", "B": "Lokomotiv Moscow", "C": "Dynamo Moscow", "D": "CSKA Moscow"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 89,
+    "question": "Who scored the winning goal in extra time in the 2014 World Cup final?",
+    "options": {"A": "Thomas Muller", "B": "Toni Kroos", "C": "Mario Gotze", "D": "Miroslav Klose"},
+    "answer": "C", "prize": 640000, "difficulty": "hard"
+  },
+  {
+    "id": 90,
+    "question": "Which club did Andres Iniesta spend the majority of his career at before moving to Japan?",
+    "options": {"A": "Real Madrid", "B": "Atletico Madrid", "C": "Valencia", "D": "Barcelona"},
+    "answer": "D", "prize": 640000, "difficulty": "hard"
+  }
 ]
