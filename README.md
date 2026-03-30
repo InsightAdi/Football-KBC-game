@@ -8,7 +8,7 @@ A fully playable **Football Quiz Game** inspired by Kaun Banega Crorepati, built
 
 ## 🌐 Play Online
 
-👉 **[Play the Web Version]([https://insightadi.github.io/GoalIQ-Millionaire/]**
+👉 **[Play the Web Version]([https://goal-iq-millionaire.vercel.app/]**
 
 ---
 
