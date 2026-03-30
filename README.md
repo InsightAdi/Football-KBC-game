@@ -1,4 +1,4 @@
-# ⚽ Football KBC — Kaun Banega Crorepati
+# ⚽ GoalIQ-Millionaire 
 
 A fully playable **Football Quiz Game** inspired by Kaun Banega Crorepati, built in Python with a web version hosted on GitHub Pages.
 
@@ -8,7 +8,7 @@ A fully playable **Football Quiz Game** inspired by Kaun Banega Crorepati, built
 
 ## 🌐 Play Online
 
-👉 **[Play the Web Version]([https://insightadi.github.io/Football-KBC-game/]**
+👉 **[Play the Web Version]([https://insightadi.github.io/GoalIQ-Millionaire/]**
 
 ---
 
@@ -29,7 +29,7 @@ A fully playable **Football Quiz Game** inspired by Kaun Banega Crorepati, built
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/InsightAdi/Football-KBC-game.git
+git clone https://github.com/InsightAdi/GoalIQ-Millionaire.git
 cd kbc-game
 ```
 
@@ -131,7 +131,7 @@ python -m unittest tests/test_game.py -v
 ### Terminal Version
 ```
 =======================================================
-  🏆  KAUN BANEGA CROREPATI — FOOTBALL EDITION  🏆
+  🏆  GOAlIQ-MILLIONAIRE — THE ULTIMATE FOOTBALL QUIZ  🏆
 =======================================================
   Answer 15 football questions to win ₹1,00,00,000!
   Safe havens at Q5 (₹10,000) and Q10 (₹3,20,000)
